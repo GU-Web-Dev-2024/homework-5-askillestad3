@@ -57,6 +57,7 @@ function addNewArtwork() {
     artGrid.appendChild(newPanel);
 }
 
+// BONUS - remove mode
 // function to toggle remove mode/button
 function toggleRemoveMode() {
     removeMode = !removeMode;
