@@ -4,9 +4,16 @@ let viewedCount = 0;
 let removeMode = false;
 
 const newArtworks = [
-    { title: "The Scream", artist: 'Edvard Munch', img: 'https://via.placeholder.com/200' },
-    { title: 'Girl with a Pearl Earring', artist: 'Johannes Vermeer', img: 'https://via.placeholder.com/200' },
-    { title: 'The Birth of Venus', artist: 'Sandro Botticelli', img: 'https://via.placeholder.com/200' },
+    { title: 'The Scream', artist: 'Edvard Munch', img: 'https://upload.wikimedia.org/wikipedia/commons/f/f4/The_Scream.jpg' },
+    { title: 'Girl with a Pearl Earring', artist: 'Johannes Vermeer', img: 'https://upload.wikimedia.org/wikipedia/commons/d/d7/Meisje_met_de_parel.jpg' },
+    { title: 'The Birth of Venus', artist: 'Sandro Botticelli', img: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/Birth_of_Venus_%28Botticelli%29_%28Uffizi%29.jpg' },
+    { title: 'The Night Watch', artist: 'Rembrandt van Rijn', img: 'https://upload.wikimedia.org/wikipedia/commons/2/2b/Rembrandt_van_Rijn_-_De_Nachtwacht.jpg' },
+    { title: 'The Kiss', artist: 'Gustav Klimt', img: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Gustav_Klimt_016.jpg' },
+    { title: 'American Gothic', artist: 'Grant Wood', img: 'https://upload.wikimedia.org/wikipedia/commons/6/6c/Grant_DeVolson_Wood_-_American_Gothic.jpg' },
+    { title: 'Las Meninas', artist: 'Diego Velázquez', img: 'https://upload.wikimedia.org/wikipedia/commons/3/3f/Las_Meninas_01.jpg' },
+    { title: 'The Last Supper', artist: 'Leonardo da Vinci', img: 'https://upload.wikimedia.org/wikipedia/commons/4/45/Da_Vinci_The_Last_Supper_high_res.jpg' },
+    { title: 'Water Lilies', artist: 'Claude Monet', img: 'https://upload.wikimedia.org/wikipedia/commons/a/a5/Claude_Monet_-_Nymph%C3%A9as_%28detail%29_2.jpg' },
+    { title: 'Starry Night Over the Rhône', artist: 'Vincent van Gogh', img: 'https://upload.wikimedia.org/wikipedia/commons/2/27/Starry_Night_Over_the_Rhone.jpg' }
 ];
 
 // function to update viewed counter
