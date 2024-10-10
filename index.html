@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Art Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
 </head>
 
 <body>
@@ -17,9 +19,10 @@
             <!-- Artwork View Counter -->
             <div id="counter">Artworks Viewed: 0</div>
 
-            <!-- Buttons for Reset and Adding New Art -->
+            <!-- Buttons for Reset, Adding New Art, and Remove Artwork -->
             <button id="reset-button">Reset Gallery</button>
             <button id="add-art-button">Add New Artwork</button>
+            <button id="remove-mode-button">Remove Artwork</button>
 
             <!-- Art Gallery Section -->
             <section class="art-grid">
@@ -38,25 +41,6 @@
             </section>
         </main>
     </div>
-
-    <!-- Placeholder for JavaScript Code -->
-    <script>
-        // List of additional artworks to add dynamically
-        const newArtworks = [
-            { title: 'The Scream', artist: 'Edvard Munch', img: 'https://via.placeholder.com/200' },
-            { title: 'Girl with a Pearl Earring', artist: 'Johannes Vermeer', img: 'https://via.placeholder.com/200' },
-            { title: 'The Birth of Venus', artist: 'Sandro Botticelli', img: 'https://via.placeholder.com/200' },
-            { title: 'The Night Watch', artist: 'Rembrandt van Rijn', img: 'https://via.placeholder.com/200' },
-            { title: 'The Kiss', artist: 'Gustav Klimt', img: 'https://via.placeholder.com/200' },
-            { title: 'American Gothic', artist: 'Grant Wood', img: 'https://via.placeholder.com/200' },
-            { title: 'Las Meninas', artist: 'Diego Velázquez', img: 'https://via.placeholder.com/200' },
-            { title: 'The Last Supper', artist: 'Leonardo da Vinci', img: 'https://via.placeholder.com/200' },
-            { title: 'Water Lilies', artist: 'Claude Monet', img: 'https://via.placeholder.com/200' },
-            { title: 'Starry Night Over the Rhône', artist: 'Vincent van Gogh', img: 'https://via.placeholder.com/200' }
-        ];
-        // Add your JavaScript code here.
-        // Later, move this to an external JavaScript file for better organization.
-    </script>
 </body>
 
 </html>
